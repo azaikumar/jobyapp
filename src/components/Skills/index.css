@@ -1,0 +1,11 @@
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15vw;
+  padding: 20px;
+}
+
+.skill-name {
+  padding: 10px;
+}

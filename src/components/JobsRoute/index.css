@@ -1,0 +1,142 @@
+.jobs-container-root {
+  background-color: #000000;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.jobs-container {
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+  padding-top: 2vh;
+}
+
+.left-container {
+  min-width: 22vw;
+  height: 100vh;
+  margin-right: 5px;
+}
+
+/* .right-container {
+  min-width: 70vw;
+} */
+
+.each-job-item-container {
+  margin-left: -35px;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: 20vw 30vh;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-logo {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #000000;
+  width: 40px;
+  height: 40px;
+}
+
+.name {
+  color: #6366f1;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.description {
+  color: #6366f1;
+  margin-left: 20px;
+  flex-wrap: wrap;
+  width: 19vw;
+  display: flex;
+}
+
+.horizontal-line {
+  width: 64%;
+  color: #272727;
+  margin-left: initial;
+  margin-top: -30px;
+  font-weight: bold;
+}
+
+.filters {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.label {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontal-line2 {
+  width: 64%;
+  color: #272727;
+  margin-left: initial;
+  font-weight: bold;
+}
+
+.radio-btns-filter-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-btn {
+  margin: 10px;
+}
+
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1px;
+  margin-bottom: 15px;
+}
+
+.search-icon {
+  color: hsl(0, 0%, 100%);
+  width: 20px;
+}
+
+.search-btn {
+  background-color: #272727;
+  padding: 5px;
+}
+
+.search-bar {
+  background-color: transparent;
+  flex: 1;
+  border: none;
+  height: 30px;
+  padding: 5px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.not-jobs-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-no-jobs {
+  text-align: center;
+}

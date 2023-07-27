@@ -1,0 +1,43 @@
+.nav-header {
+  min-height: 10vh;
+  width: 100vw;
+  background-color: #272727;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+}
+
+.website-logo {
+  width: 150px;
+}
+
+.jobs-link {
+  margin-right: 35vw;
+  margin-left: 6px;
+  color: #ffffff;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home-link {
+  margin-left: 30vw;
+  margin-right: 6px;
+  color: #ffffff;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-logout-btn {
+  width: 150px;
+  background-color: #6366f1;
+  color: #ffffff;
+  padding: 4px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
